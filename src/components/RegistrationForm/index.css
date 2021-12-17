@@ -1,0 +1,77 @@
+/* Write your CSS code here */
+.background-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ea580c;
+  font-size: 48px;
+}
+.form-card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 45px;
+  width: 400px;
+  height: 300px;
+}
+.form-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.input-box {
+  align-self: stretch;
+  height: 35px;
+
+  border: 1px solid #9aa5b1;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.blurred-box {
+  background-color: #fef2f4;
+  border: 1px solid #ff0b37;
+}
+label {
+  align-self: flex-start;
+  margin-bottom: 5px;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  color: #475569;
+  margin-top: 10px;
+}
+button {
+  background-color: #ea580c;
+  height: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-family: roboto;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  margin-top: 15px;
+}
+p {
+  margin-top: 4px;
+  text-align: left;
+  align-self: flex-start;
+  margin-bottom: 15px;
+  font-size: 12px;
+  color: #ff0b37;
+}
+.message-style {
+  color: #475569;
+  font-size: 24px;
+  align-self: center;
+}
